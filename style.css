@@ -9,15 +9,27 @@ body {
 
 h1, h2, h3 {
   font-family: "Oswald";
+}
 
+table {
+  width:100%;
+  position:relative;
+}
+
+td {
+  text-align: center;
 }
 
 .browser {
   position: relative;
+  width: 300px;
 }
 
 .image img {
   width: 100px;
   float: left;
   padding-right: 10px;
+}
+.browser_info {
+  table-layout: fixed;
 }
