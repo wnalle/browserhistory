@@ -1,9 +1,9 @@
 body {
   font-family: "Oswald";
-  color: darkblue;
+  background-color:black;
+  color: white;
   margin-top: 10px; margin-bottom: 10px;
   margin-left: 50px; margin-right: 50px;
-  background-color: ivory;
 }
 
 h1, h2, h3 {
@@ -12,7 +12,6 @@ h1, h2, h3 {
 
 .browser {
   position:relative;
-  width: 300px;
 }
 
 .browser > img {
@@ -27,6 +26,11 @@ h1, h2, h3 {
 
 .nav_data {
   text-align: center;
+}
+
+
+.browser_nav > img {
+  width:300px;
 }
 
 .browser_table > td {
